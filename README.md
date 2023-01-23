@@ -97,37 +97,59 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
-
+ 
 #### Backlog
 
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
 
-#### Day One
-
-#### Day One
-
-###### Lunes 23, Enero 2023
-
+<!-- MODELO:
 - [ ] Tarea no completada
 - [x] Tarea Completada
 - [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [x] Ej - Crear section "projects" en html -->
 
+#### Day One
+###### Lunes 23, Enero 2023
+
+- [ ] Set up del GitHub para poder trabajar de manera colaborativa (main, cris, ester branches)
+- [ ] Planificación del proyecto definiendo calendario y tareas
+- [ ] Realizar el esqueleto de la web:
+
+    - [ ] HOME PAGE --> Navbar, hero section (main section), client section, project section, testimonial section, services section, CTA section y footer section.
+
+    - [ ] PROJECT PAGE --> Navbar, project section, projects section, CTA section y footer section.
+
+    - [ ] CONTACT US PAGE --> Navbar, contact us section y footer section.
+    
 #### Day Two
-
 ###### Martes 24, Enero 2023
 
-#### Day Three
+- [ ] Vincular la hoja de estilos en el head del documento HTML
+- [ ] Crear id y secciones necesarias / seuselectores
+- [ ] Decidir si vamos a trabajar con Flex o Grid
+- [ ] Aplicar todos estilos según el diseño definido en Figma
 
+#### Day Three
 ###### Miercoles 25, Enero 2023
 
-#### Day Four
+- [ ] Trabajar con JavaScript en la página de index (sección proyectos):
+- [ ] Index --> sección proyectos recientes:
+   - [ ] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
 
+#### Day Four
 ###### Jueves 26, Enero 2023
 
-#### Day Five
+- [ ] Trabajar con JavaScript en la página de contacto (formulario)
+- [ ] Contacto --> formulario:
+   - [ ] Incluir un formulario para que los visitantes del sitio web puedan enviar una solicitud de contacto
+   - [ ] Este formulario debe incluir campos para recolectar información como el nombre, el correo electrónico y el mensaje del usuario.
+   - [ ] Finalmente, este formulario deberá incluir un botón de envío para enviar la solicitud al punto final especificado en la URL. “https://jsonplaceholder.typicode.com/”.
+   - [ ] Los resultados de este formulario se deben ver registrados en consola una vez enviados al punto final especificado en la URL con un codigo de estado 201.
 
+#### Day Five
 ###### Viernes 27, Enero 2023
+
+- [ ] Preparar la presentación del proyecto (Canvas - de 5 a 8 slides)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
