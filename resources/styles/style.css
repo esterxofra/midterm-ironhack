@@ -302,10 +302,48 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 form .form2{
   display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+
+}
+
+form .form2 div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+
+form button{
+  background-color: #072AC8;
+  color: white;
+  padding: 20px ;
+
+}
+form input{
+  background-color: #E6E9F1;
+  padding: 20px;
+
+}
+
+form textarea{
+  background-color: #E6E9F1;
+  padding: 10px;
+}
+#contactform {
+  padding:160px;
+}
+
+#h1form{
+  margin-bottom: 60px;
 }
 
 

@@ -127,17 +127,21 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [ ] Vincular la hoja de estilos en el head del documento HTML
 - [ ] Crear id y secciones necesarias / seuselectores
 - [ ] Cristina: seccion services, seccion CTA, y footer--> Aplicar CSS
+- [ ] Cristina: empezar CSS de formulario de ocntacto
 - [ ] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
-- [ ] Decidir si vamos a trabajar con Flex o Grid
+- [ ] Decidir si vamos a trabajar con Flex o Grid--> Flex
 - [ ] Aplicar todos estilos según el diseño definido en Figma
+- [ ] Solución de problemas de Git, Git branches, Solución de conflictos por commits en main y en las brancehes de cris y ester.
 
 #### Day Three
 ###### Miercoles 25, Enero 2023
 
+- [ ] Ester: CSS de página de projects.
+- [ ] Cristina: Acabar CSS página de formulario de contacto.
 - [ ] Trabajar con JavaScript en la página de index (sección proyectos):
 - [ ] Index --> sección proyectos recientes:
    - [ ] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
-
+  
 #### Day Four
 ###### Jueves 26, Enero 2023
 
