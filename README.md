@@ -223,3 +223,11 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
 
+
+
+## Cómo trabajar en pareja en git
+1º Hacer pull en el main y en la rama de lo que haya en main. 
+2º Trabajar hasta que te duelan las pestañas (en tu rama)
+3º Hacer pull (otra vez, sí) de lo que haya en main. 
+4º Hacer el push de la rama
+5º Hacer el merge de la rama con el main
