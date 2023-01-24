@@ -10,7 +10,9 @@
 <body>
     <!-- HEADER SECTION -->
     <header>
-        <img src="./resources/images/logos/circle.svg" alt="circle logo">
+        <div>
+            <img class="logo-circle" src="./resources/images/logos/circle.svg" alt="circle logo">
+        </div>
         <nav>
           <ul>
             <li><a href=>Home</a></li>
@@ -18,27 +20,41 @@
             <li><a href=>Services</a></li>
           </ul>
         </nav>
-        <button type="button"><a href="./contact-us.html">Contact Us</a></button>
-       
+        <div>
+            <button class="style-button-contact" type="button"><a href="./contact-us.html">Contact Us</a></button>
+        </div>
     </header>
 
     <!-- MAIN SECTION -->
     <main>
-      <div id="maintext">
+
+      <div id="hero-main-section-text">
+
         <h1>Empower Your Business With Stunning Design!</h1>
         <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
-        <button type="button">Get in touch</button>
-        <button type="button">See our work</button>
+
+        <div class="hero-main-section-button">
+            <button class="getintouch-button" type="button"><a href="./contact-us.html">Get in touch</a></button>
+
+            <button class="seeourwork-button" type="button"><a href="./contact-us.html">See our work</a></button>
+        </div>
+
       </div>
-      <div id="mainimages">
-        <!-- <img src="" alt=""> -->
-        <img src="./resources/images/hero-section/card-1.png" alt="card image 1">
-        <img src="./resources/images/hero-section/card-2.png" alt="card image 2">
+
+      <div id="hero-main-section-images">
+
+        <img class="img2" src="./resources/images/hero-section/card-1.png" alt="Choose your card">
+
+        <img class="img3" src="./resources/images/hero-section/card-2.png" alt="Project has been accepted">
+
       </div>
+
+  
+
     </main>
 
     <!-- CLIENTS SECTION -->
-    <section>
+    <section id="clients-section">
        <div>
         <img src="./resources/images/logos/airbnb-logo.svg" alt="airbnb logo">
        </div>
@@ -67,7 +83,7 @@
     </section>
 
     <!-- TESTIMONIAL PROJECTS -->
-    <section>
+    <!-- <section>
         <h2>Hear What Our Clients Have to Say</h2>
         <p>"Circle helped us through every stage of our startup. We really enjoyed working with you."</p>
         <img src="./resources/images/testimonial-section/memoji-1.png" alt="memoji img 1">
@@ -79,10 +95,10 @@
             <p>Kristin Watson</p>
             <p>Booking.com</p>
         </div>
-    </section>
+    </section> -->
 
     <!-- SERVICES SECTION  -->
-    <section>
+    <!-- <section>
         <h2>Our Services</h2>
         <div>
             <div class="services">
@@ -104,21 +120,22 @@
                 <button type="button">Learn more</button>
             </div>
         </div>  
-    </section>
+    </section> -->
 
     <!-- CTA SECTIONa -->
-    <section>
+    <!-- <section>
         <h2>Do you have any questions?</h2>
         <p>Let us help you!</p>
         <label for=""></label><br/>
         <input type="text" id=""  name="name" placeholder="Enter your name"/>
         <button type="button">Subscribe</button>
-    </section>
-    <!-- footer -->
-    <footer>
+    </section> -->
+
+
+    <!-- FOOTER SECTION -->
+    <!-- <footer>
         <img src="./resources/images/logos/circle.svg" alt="">
         <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
-        <!-- hacer dos divs -->
         <ul>
             <li>Team</li>
             <li>Services</li>
@@ -127,7 +144,6 @@
             <li>Projects</li>
             <li>Privacy Policy</li>
         </ul>
-    
-    </footer>
+    </footer> -->
 </body>
 </html>

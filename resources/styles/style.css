@@ -8,12 +8,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  width: 90%;
+  margin: auto;
 }
+
+
+
 
 
 
@@ -29,13 +34,173 @@ body {
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Navbar ------------------------------ */
-
-/* Your CSS code goes here */
-
 /* ------------------------------ Header ------------------------------ */
 
-/* Your CSS code goes here */
+header{
+  /* position: fixed;
+  z-index: 1; */
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+
+.logo-circle {
+  width: 70px;
+  height: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+}
+
+nav a {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22.1 px;
+  text-decoration: none;
+  color: black;
+  padding: 0 16px;
+}
+
+/* BUTTON STYLE */
+.style-button-contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 36px;
+  gap: 10px;
+  width: 150px;
+  height: 52px;
+  background: #072AC8;
+  color: white;
+}
+
+.style-button-contact a{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-wrap: nowrap;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/* ------------------------------ Main ------------------------------ */
+main {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#hero-main-section-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+#hero-main-section-text h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700px;
+  font-size: 60px;
+  line-height: 70px;
+  color: #292E47;
+  margin-bottom: 50px;
+}
+
+#hero-main-section-text p{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6B708D;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.hero-main-section-button{
+ display: flex;
+ gap: 10px;
+}
+
+.getintouch-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  height: 52px;
+  background: #072AC8;
+}
+.getintouch-button a{
+ display: flex;
+ text-align: center;
+ margin: auto;
+ flex-wrap: nowrap;
+ color: white;
+ font-family: "Roboto";
+ font-weight: 500;
+ font-size: 17px;
+}
+
+.seeourwork-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  height: 52px;
+  background: white
+}
+.seeourwork-button a{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-wrap: nowrap;
+  color: #6B708D;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+#hero-main-section-images{
+background-image: url("/resources/images/hero-section/hero-image.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 40vw;
+position: relative;
+width: 50vw;
+height: 50vw;
+}
+
+.img2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  height: 20vw;
+}
+
+.img3{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20vw;
+  height: 20vw;
+}
+
 
 /* ------------------------------ Partners ------------------------------ */
 
@@ -47,7 +212,17 @@ body {
 
 /* ------------------------------ Client reviews ------------------------------ */
 
-/* Your CSS code goes here */
+#clients-section{
+ display: flex;
+ justify-content: space-around;
+ margin: 150px 50px;
+}
+
+#clients-section img{
+  width: 100px;
+  height: 100;
+ }
+
 
 /* ------------------------------ Services ------------------------------ */
 /* section 4 */
@@ -69,11 +244,11 @@ section:nth-of-type(4) div{
   align-items: left;
   padding: 0 1 rem;
 }
+
 section:nth-of-type(4) .services img{
   margin-bottom: 1rem;
   width: 80px;
   height: 80px;
-
 }
 
 section:nth-of-type(4) .services{
