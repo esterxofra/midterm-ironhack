@@ -68,11 +68,13 @@ section:nth-of-type(4) div{
   justify-content: space-between;
   align-items: left;
   padding: 0 1 rem;
+  margin-bottom: 30px;
 }
 section:nth-of-type(4) .services img{
   margin-bottom: 1rem;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
 
 }
 
@@ -88,9 +90,36 @@ section:nth-of-type(4) .services h3{
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 30%;
-  
+  width: 100%;
+
 }
+section:nth-of-type(4) .services p{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  width: 50%;
+ 
+
+}
+
+section:nth-of-type(4) .services button{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  width: 50%;
+  background-color: white;
+  color: #072AC8;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+
+}
+
+
 
 
 
@@ -98,10 +127,141 @@ section:nth-of-type(4) .services h3{
 /* ------------------------------ Questions form ------------------------------ */
 
 /* Your CSS code goes here */
+section:nth-of-type(5) {
+ 
+  background-color: #FFC600;
+  width: 100vw;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+section:nth-of-type(5) h2{
+  display: flex;
+  font-family:'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #292E47;
+  text-align: center;
+
+}
+section:nth-of-type(5) p{
+  width: 139px;
+  height: 30px;
+  left: 481px;
+  top: 67px;
+}
+
+section:nth-of-type(5) button{
+  
+  background: #072AC8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 37px;
+  gap: 10px;
+  width: 198px;
+  height: 80px;
+  left: 658px;
+  top: 147px;
+  font-weight: 600;
+  
+
+}
+
+section:nth-of-type(5) input{
+  box-sizing: border-box;
+  width: 393px;
+  height: 80px;
+  margin: 0 0.5rem;
+  border: none;
+  left: 245px;
+  top: 147px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  background: url(/resources/images/newsletter/icon/mail.svg) no-repeat 3%;
+  background-size: 25px;
+  background-color: white;
+  padding: 20px 180px 20px 50px;
+}
+
+/* separando el input del subscribe button */
+section:nth-of-type(5) div{
+  display: flex;
+  gap: 10px;
+}
+
 
 /* ------------------------------ Footer ------------------------------ */
+footer{
+  display: flex;
+  border: #072AC8 2px solid;
+  height: 242px;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
 
-/* Your CSS code goes here */
+}
+
+#footericon p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  flex-wrap: wrap;
+  width: 80%;
+
+}
+#footericon img{
+  width: 98.38px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+#footerlist{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  
+}
+
+.list1 ul{
+
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-bottom: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+
+  
+}
+.list2 ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+
+
 
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
