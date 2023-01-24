@@ -17,11 +17,6 @@ body {
   margin: auto;
 }
 
-
-
-
-
-
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
 /* ------------------------------------------------------------------------ */
@@ -201,28 +196,96 @@ height: 50vw;
   height: 20vw;
 }
 
-
-/* ------------------------------ Partners ------------------------------ */
-
-/* Your CSS code goes here */
-
-/* ------------------------------ Recent projects ------------------------------ */
-
-/* Your CSS code goes here */
-
 /* ------------------------------ Client reviews ------------------------------ */
 
 #clients-section{
- display: flex;
- justify-content: space-around;
- margin: 150px 50px;
+  display: flex;
+  justify-content: space-around;
+  margin: 150px 50px;
+ }
+ 
+ #clients-section img{
+   width: 100px;
+   height: 100;
+  }
+ 
+
+/* ------------------------------ Recent projects ------------------------------ */
+
+#recent-project-section h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  padding: 5px;
+  margin-bottom: 50px;
+  color: #292E47;
 }
 
-#clients-section img{
-  width: 100px;
-  height: 100;
- }
+.external-div-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
 
+.internal-div-project {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: left;
+  width: 30%;
+  box-shadow: 10px 10px 40px #B9B9B9;
+}
+
+.internal-div-project img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.internal-div-project h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+
+.internal-div-project p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #6B708D;;
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+
+#learn-more-button{
+  display: flex;
+  justify-content: start;
+  font-family: "Roboto";
+  background: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #072AC8;
+  margin-left: 15px;
+}
+
+
+
+/* ------------------------------ Testimonials ------------------------------ */
 
 /* ------------------------------ Services ------------------------------ */
 /* section 4 */
@@ -263,7 +326,7 @@ section:nth-of-type(4) .services h3{
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 30%;
+  width: 0%;
 }
 
 
