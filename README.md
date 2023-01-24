@@ -126,6 +126,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [ ] Vincular la hoja de estilos en el head del documento HTML
 - [ ] Crear id y secciones necesarias / seuselectores
+- [ ] Cristina: seccion services, seccion CTA, y footer--> Aplicar CSS
+- [ ] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
 - [ ] Decidir si vamos a trabajar con Flex o Grid
 - [ ] Aplicar todos estilos según el diseño definido en Figma
 
