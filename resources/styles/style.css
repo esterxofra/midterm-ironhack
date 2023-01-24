@@ -292,7 +292,40 @@ height: 50vw;
   flex-direction: column;
   align-items: center;
   height: 50vw;
+  position:relative
 }
+
+.face1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15vw;
+  height: 15vw;
+}
+  
+.face2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15vw;
+  height: 15vw;
+}
+
+.face3{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15vw;
+  height: 15vw;
+} 
+
+.face4{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15vw;
+  height: 15vw;
+} 
 
 #central-box-profile{
   margin: auto;
@@ -308,7 +341,7 @@ height: 50vw;
   font-size: 40px;
   line-height: 47px;
   color: #F4F6FC;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .quote{
   font-family: 'Roboto';
@@ -319,7 +352,7 @@ height: 50vw;
   text-align: center;
   color: #FFC600;
   width: 50vw;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 /* PROFILE - TESTIMONIAL SECTION */
@@ -350,44 +383,7 @@ height: 50vw;
   margin: 10px;
 }
 
-#on-top-box{
-  background: green;
-  position: relative;
-  height: 50vw;
-  z-index: 3;
-}
 
-.face1{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20vw;
-  height: 20vw;
-}
-  
-.img2{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20vw;
-  height: 20vw;
-}
-
-.img2{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 20vw;
-  height: 20vw;
-} 
-
-.img2{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 20vw;
-  height: 20vw;
-} 
 
 
 
