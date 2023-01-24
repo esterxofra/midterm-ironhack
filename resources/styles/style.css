@@ -9,10 +9,13 @@
   padding: 0;
   box-sizing: border-box;
   border: 1px red solid;
+
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  width: 90%;
+  margin: auto;
 }
 
 
@@ -55,27 +58,36 @@ section:nth-of-type(4) {
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 2rem 0;
+  margin-bottom: 100px;
+  
 }
 section:nth-of-type(4) h2{
-  font-weight: 700;
+  font-weight: 600;
   font-size: 40px;
-  line-height: 47px;
+  margin-left: 248px;
+  margin-bottom: 4%;
+
 }
 
 section:nth-of-type(4) div{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 25px;
   align-items: left;
   padding: 0 1 rem;
   margin-bottom: 30px;
-}
-section:nth-of-type(4) .services img{
-  margin-bottom: 1rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
 
+ 
+}
+section:nth-of-type(4) .services div{
+  margin-bottom: 1rem;
+  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 6px;
+  background-color: #ECF7FF;
+  
 }
 
 section:nth-of-type(4) .services{
@@ -83,7 +95,11 @@ section:nth-of-type(4) .services{
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 30%;
+  width: 20%;
+  background-color: white;
+  box-shadow: 10px 10px 40px #B9B9B9;
+  padding: 15px ;
+  
 }
 section:nth-of-type(4) .services h3{
   display: flex;
@@ -91,6 +107,8 @@ section:nth-of-type(4) .services h3{
   justify-content: left;
   align-items: left;
   width: 100%;
+  margin-bottom: 5px;
+  
 
 }
 section:nth-of-type(4) .services p{
@@ -98,7 +116,8 @@ section:nth-of-type(4) .services p{
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 50%;
+  width: 85%;
+  margin-bottom: 20px;
  
 
 }
@@ -116,6 +135,7 @@ section:nth-of-type(4) .services button{
   font-weight: 400;
   font-size: 17px;
   line-height: 150%;
+  margin-bottom: 15px;
 
 }
 
@@ -130,10 +150,7 @@ section:nth-of-type(4) .services button{
 section:nth-of-type(5) {
  
   background-color: #FFC600;
-  width: 100vw;
   height: 500px;
-  left: 0px;
-  top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,6 +173,8 @@ section:nth-of-type(5) p{
   height: 30px;
   left: 481px;
   top: 67px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 section:nth-of-type(5) button{
@@ -278,6 +297,18 @@ footer{
 /* ------------------------------ Form ------------------------------ */
 
 /* Your CSS code goes here */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+form .form2{
+  display: flex;
+}
+
+
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
