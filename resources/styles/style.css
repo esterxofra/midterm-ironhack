@@ -29,7 +29,7 @@ body {
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Header ------------------------------ */
+/* ------------------------------ HEADER SECTION (COMMON SECTION) ------------------------------ */
 
 header{
   /* position: fixed;
@@ -90,7 +90,8 @@ nav a {
   font-size: 17px;
 }
 
-/* ------------------------------ Main ------------------------------ */
+/* ------------------------------ MAIN SECTION------------------------------ */
+
 main {
   display: flex;
   flex-wrap: nowrap;
@@ -196,7 +197,7 @@ height: 50vw;
   height: 20vw;
 }
 
-/* ------------------------------ Client reviews ------------------------------ */
+/* ------------------------------ CLIENTS SECTION ------------------------------ */
 
 #clients-section{
   display: flex;
@@ -210,7 +211,7 @@ height: 50vw;
   }
  
 
-/* ------------------------------ Recent projects ------------------------------ */
+/* ------------------------------ RECENT PROJECTS SECTION ------------------------------ */
 
 #recent-project-section h2 {
   font-family: 'Roboto';
@@ -270,7 +271,7 @@ height: 50vw;
   margin-left: 15px;
 }
 
-#learn-more-button{
+.learn-more-button{
   display: flex;
   justify-content: start;
   font-family: "Roboto";
@@ -284,7 +285,7 @@ height: 50vw;
   margin-left: 15px;
 }
 
-/* ------------------------------ Testimonials ------------------------------ */
+/* ------------------------------ TESTIMONIALS SECTION ------------------------------ */
 
 #testimonial-project-section{
   background-color: #292E47;
@@ -355,7 +356,6 @@ height: 50vw;
   margin-bottom: 100px;
 }
 
-/* PROFILE - TESTIMONIAL SECTION */
 #booking{
   display: flex;
 }
@@ -382,16 +382,6 @@ height: 50vw;
   color: #F4F6FC;
   margin: 10px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ------------------------------ Services ------------------------------ */
 /* section 4 */
@@ -447,12 +437,79 @@ section:nth-of-type(4) .services h3{
 /* Your CSS code goes here */
 
 /* -------------------------------------------------------------------------- */
+
+
 /* ------------------------------ PROJECT html ------------------------------ */
 /* -------------------------------------------------------------------------- */
 
-/* ------------------------------ Project main ------------------------------ */
+/* ------------------------------ MAIN SECTION------------------------------ */
 
-/* Your CSS code goes here */
+h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  padding: 5px;
+  margin-bottom: 50px;
+  color: #292E47;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle-left{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #6B708D;
+  margin-bottom: 50px;
+}
+
+.subtitle-right{
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: right;
+  color: #292E47;
+}
+
+#main-project-section img{
+  height: 500px;
+  box-shadow: 10px 10px 40px #B9B9B9;
+  margin-bottom: 50px;
+}
+
+#main-project-section p{
+   margin-bottom: 25px;
+}
+
+
+/* ------------------------------ OTHER PROJECTS SECTION ------------------------------ */
+
+#other-projects-section h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  padding: 5px;
+  margin-bottom: 50px;
+  color: #292E47;
+}
+
+/* NOTE: CHECK STYLES RECENT PROEJECTS SECTION */
+
+
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
