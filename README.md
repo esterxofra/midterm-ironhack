@@ -236,10 +236,11 @@ En resumen, la sección "grande error" es una forma de ser transparente sobre lo
 4º Hacer el push de la rama
 5º Hacer el merge de la rama con el main -->
 
-git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin cris
 
-git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin ester
+git status && git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin cris
 
-git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin main
+git status && git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin ester
+
+git status && git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin main
 
 git pull origin "nombre del branch/rama que estaremos apuntando"
