@@ -1,4 +1,4 @@
-<!--
+git<!--
 Un archivo README.md es un archivo de markdown que contiene información sobre un proyecto. Típicamente se encuentra en el directorio raíz de un proyecto y se utiliza para proporcionar documentación e instrucciones para otros que puedan querer usar o contribuir al proyecto.
 
 Para los desarrolladores, un archivo README.md bien estructurado y bien documentado puede ser beneficioso de varias maneras. Puede ayudar a asegurar que otros puedan entender y usar fácilmente el proyecto, lo que puede conducir a más contribuciones y una comunidad más activa alrededor del proyecto. Además, puede hacer que sea más fácil para los desarrolladores incorporar a nuevos miembros del equipo y para que otros entiendan el propósito y la funcionalidad del proyecto.
@@ -136,8 +136,9 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Day Three
 ###### Miercoles 25, Enero 2023
-- [ ] Unificar trabajos por git, haciendo las pull requests cada una, solucion de conflictos.
-- [ ] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular 'a' tags en el nav bar de la homepage y en el de contact.
+- [x] Unificar trabajos por git, haciendo las pull requests cada una, solucion de conflictos.
+- [x] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular 'a' tags en el nav bar de la homepage y en el de contact.
+. [x] Solventar los conflictor por trabajo en branches, falta codigo html que no se actualizo en el pull al branch main.
 - [ ] Adaptar diseño responsive desktop/mobile.
 - [ ] Trabajar con JavaScript en la página de index (sección proyectos):
 - [ ] Index --> sección proyectos recientes:
