@@ -14,17 +14,11 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
-h1{
 
-}
-
-h2{
-
-}
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
@@ -46,9 +40,11 @@ header{
   height: 200px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #fff;
+  margin-bottom: 50px;
+  padding: 1vw 5vw 1vw 5vw;
 }
 
 .logo-circle {
@@ -74,6 +70,11 @@ nav a {
   padding: 0 16px;
 }
 
+nav a:hover{
+  color: #072AC8;
+
+}
+
 /* BUTTON STYLE */
 .style-button-contact{
   display: flex;
@@ -85,6 +86,7 @@ nav a {
   height: 2.5vw;
   background: #072AC8;
   color: white;
+  border: none;
 }
 
 button:hover{
@@ -119,33 +121,35 @@ main {
   flex-direction: column;
   width: 50%;
   justify-content: center;
+  padding: 1vw 1vw 1vw 5vw;
 }
 
 #hero-main-section-text h1{
   font-family: "Roboto", sans-serif;
   font-weight: 700px;
-  font-size: 60px;
+  font-size: 100px;
   line-height: 130%;
   color: #292E47;
   margin-bottom: 50px;
-  padding: 1vw 15vw 1vw 1vw;
+  width: 70%;
 }
 
-#hero-main-section-text p{
+#hero-main-section-text h4{
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400px;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 150%;
   color: #6B708D;
   margin-bottom: 20px;
   margin-bottom: 50px;
-  padding: 1vw 10vw 1vw 1vw;
+  width: 70%;
 }
 
 .hero-main-section-button{
  display: flex;
- gap: 20%;
+ gap: 5%;
+ width: 70%;
 }
 
 .getintouch-button{
@@ -157,6 +161,7 @@ main {
   width: 10vw;
   height: 2.5vw;
   background: #072AC8;
+  border: none;
 }
 
 
@@ -180,7 +185,8 @@ main {
   gap: 10px;
   width: 10vw;
   height: 2.5vw;
-  background: white
+  background: white;
+  border: none;
 }
 .seeourwork-button a{
   display: flex;
@@ -197,27 +203,27 @@ main {
 #hero-main-section-images{
 background-image: url("/resources/images/hero-section/hero-image.png");
 background-repeat: no-repeat;
-background-position: center center;
-background-size: 40vw;
+background-position: top center;
+background-size: 30vw;
 position: relative;
-width: 50vw;
-height: 50vw;
+width: 40vw;
+height: 40vw;
 }
 
 .img2{
   position: absolute;
   top: 0;
   left: 0;
-  width: 20vw;
-  height: 20vw;
+  width: 17vw;
+  height: 17vw;
 }
 
 .img3{
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 20vw;
-  height: 20vw;
+  width: 17vw;
+  height: 17vw;
 }
 
 /* ------------------------------ CLIENTS SECTION ------------------------------ */
@@ -238,12 +244,12 @@ height: 50vw;
 
 #recent-project-section h2 {
   font-family: 'Roboto';
-  font-style: normal;
+  /* font-style:normal; */
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 47px;
   padding: 5px;
-  margin-bottom: 50px;
+  margin: 0px 0px 0px 100px;
   color: #292E47;
 }
 
@@ -270,16 +276,16 @@ height: 50vw;
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 50px;
+  padding: 0px 0px 50px 0px;
 }
 
 .internal-div-project h3{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 50px;
   line-height: 28px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   margin-left: 15px;
 }
 
@@ -287,7 +293,7 @@ height: 50vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 40px;
   line-height: 150%;
   color: #6B708D;;
   margin-bottom: 50px;
@@ -444,7 +450,7 @@ section:nth-of-type(4) .services img{
 section:nth-of-type(4) .services div{
   border-radius: 50%;
   background-color: #A2D6F9;
-  padding: 20%;
+  padding: 5%;
 }
 
 section:nth-of-type(4) .services{
@@ -503,11 +509,12 @@ section:nth-of-type(4) .services button{
 section:nth-of-type(5) {
  
   background-color: #FFC600;
-  height: 500px;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5%;
 
 }
 section:nth-of-type(5) h2{
@@ -515,43 +522,56 @@ section:nth-of-type(5) h2{
   font-family:'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 47px;
   color: #292E47;
   text-align: center;
 
 }
 section:nth-of-type(5) p{
-  width: 139px;
-  height: 30px;
+  width: auto;
+  height: auto;
   left: 481px;
   top: 67px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 8px;
+  margin-bottom: 70px;
+  font-family:'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
 }
 
 section:nth-of-type(5) button{
-  
   background: #072AC8;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px 37px;
   gap: 10px;
-  width: 198px;
-  height: 80px;
+  width: 250px;
+  height: auto;
   left: 658px;
   top: 147px;
   font-weight: 600;
-  
+  color: white;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
 
+}
+
+section:nth-of-type(5) button:hover{
+  color: white;
+  background-color: #292E47;
+  transition: background-color .5s;
 }
 
 section:nth-of-type(5) input{
   box-sizing: border-box;
-  width: 393px;
-  height: 80px;
+  width: 16vw;
+  height: auto;
   margin: 0 0.5rem;
   border: none;
   left: 245px;
@@ -559,18 +579,19 @@ section:nth-of-type(5) input{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 35px;
   line-height: 150%;
   background: url(/resources/images/newsletter/icon/mail.svg) no-repeat 3%;
-  background-size: 25px;
+  background-size: 8%;
   background-color: white;
-  padding: 20px 180px 20px 50px;
+  padding: 20px 180px 20px 90px;
 }
 
 /* separando el input del subscribe button */
 section:nth-of-type(5) div{
   display: flex;
   gap: 10px;
+  height: 15%;
 }
 
 
@@ -579,25 +600,26 @@ footer{
   display: flex;
   border: #072AC8 2px solid;
   height: 242px;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
   align-items: center;
-
+  padding: 1vw 5vw 1vw 5vw;
+  margin-bottom: 5%;
 }
 
 #footericon p{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 40px;
   line-height: 150%;
   flex-wrap: wrap;
   width: 80%;
 
 }
 #footericon img{
-  width: 98.38px;
-  height: 30px;
+  width: 150px;
+  height: auto;
   margin-bottom: 25px;
 }
 
@@ -609,7 +631,6 @@ footer{
 }
 
 .list1 ul{
-
   display: flex;
   list-style: none;
   gap: 50px;
@@ -617,9 +638,9 @@ footer{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 40px;
   line-height: 150%;
-
+  color:#072ac8;
   
 }
 .list2 ul{
@@ -628,8 +649,9 @@ footer{
   gap: 50px;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 40px;
   line-height: 150%;
+  color:#072ac8;
 }
 
 
@@ -725,12 +747,14 @@ form {
   gap: 10px;
   width: 100%;
   margin-bottom: 30px;
+  font-size: 40px;
 }
 
 form .form2{
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 1%;
+
 
 
 }
@@ -739,24 +763,45 @@ form .form2 div{
   display: flex;
   flex-direction: column;
   width: 50%;
-  gap: 10px;
+  gap: 15px;
+  font-size: 35px;
+  margin-bottom: 1.5%;
+  
+
+
 }
 
 form button{
   background-color: #072AC8;
   color: white;
-  padding: 20px ;
+  padding: 40px ;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
 
+}
+form button:hover{
+  color: white;
+  background-color: #292E47;
+  transition: background-color .5s;
 }
 form input{
   background-color: #E6E9F1;
-  padding: 20px;
+  padding: 1.5%;
+  font-size: 35px;
+  margin-bottom: 1.5%;
+  border: none;
 
 }
 
 form textarea{
   background-color: #E6E9F1;
-  padding: 10px;
+  padding: 20px;
+  font-size: 35px;
+  font-family: "Roboto";
+  margin-bottom: 1.5%;
+  border: none;
 }
 #contactform {
   padding:160px;
@@ -764,7 +809,13 @@ form textarea{
 
 #h1form{
   margin-bottom: 60px;
+  font-size: 100px;
 }
+
+#email, #phone{
+  padding: 2.5%;
+}
+
 
 
 
