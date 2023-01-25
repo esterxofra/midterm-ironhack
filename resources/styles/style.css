@@ -450,6 +450,10 @@ section:nth-of-type(4) div{
 }
 
 section:nth-of-type(4) .services img{
+  margin-bottom: 1rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
   width: 100px;
   height: 100px;
 }
@@ -465,7 +469,8 @@ section:nth-of-type(4) .services{
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 30%;
+  width: 33%;
+  /* cambios widht del padre:no tiene width, padre widtgh30% space bet*/
   background-color: white;
   box-shadow: 10px 10px 40px #B9B9B9;
   padding: 15px;
@@ -647,6 +652,7 @@ footer{
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  color: #072AC8;
   
 }
 
