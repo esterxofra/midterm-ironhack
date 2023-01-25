@@ -137,7 +137,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Three
 ###### Miercoles 25, Enero 2023
 - [ ] Unificar trabajos por git, haciendo las pull requests cada una, solucion de conflictos.
-- [ ] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular las tags en el nav bar de la homepage y en el de contact.
+- [ ] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular 'a' tags en el nav bar de la homepage y en el de contact.
 - [ ] Adaptar diseño responsive desktop/mobile.
 - [ ] Trabajar con JavaScript en la página de index (sección proyectos):
 - [ ] Index --> sección proyectos recientes:
