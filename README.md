@@ -111,9 +111,9 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day One
 ###### Lunes 23, Enero 2023
 
-- [ ] Set up del GitHub para poder trabajar de manera colaborativa (main, cris, ester branches)
-- [ ] Planificación del proyecto definiendo calendario y tareas
-- [ ] Realizar el esqueleto de la web:
+- [x] Set up del GitHub para poder trabajar de manera colaborativa (main, cris, ester branches)
+- [x] Planificación del proyecto definiendo calendario y tareas
+- [x] Realizar el esqueleto de la web:
 
     - [ ] HOME PAGE --> Navbar, hero section (main section), client section, project section, testimonial section, services section, CTA section y footer section.
 
@@ -124,27 +124,31 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Two
 ###### Martes 24, Enero 2023
 
-- [ ] Vincular la hoja de estilos en el head del documento HTML
-- [ ] Crear id y secciones necesarias / seuselectores
-- [ ] Cristina: seccion services, seccion CTA, y footer--> Aplicar CSS
-- [ ] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
-- [ ] Decidir si vamos a trabajar con Flex o Grid
-- [ ] Aplicar todos estilos según el diseño definido en Figma
+- [x] Vincular la hoja de estilos en el head del documento HTML
+- [x] Crear id y secciones necesarias / seuselectores
+- [x] Cristina: seccion services, seccion CTA, y footer, Aplicar CSS
+- [x] Cristina: CSS de formulario de contacto
+- [x] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
+- [x] Ester: Páginas de projects
+- [x] Decidir si vamos a trabajar con Flex o Grid--> Flex
+- [x] Aplicar todos estilos según el diseño definido en Figma
+- [x] Solución de problemas de Git, Git branches, Solución de conflictos por commits en main y en las brancehes de cris y ester.
 
 #### Day Three
 ###### Miercoles 25, Enero 2023
-
+- [ ] Unificar trabajos por git, haciendo las pull requests cada una, solucion de conflictos.
+- [ ] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular 'a' tags en el nav bar de la homepage y en el de contact.
+- [ ] Adaptar diseño responsive desktop/mobile.
 - [ ] Trabajar con JavaScript en la página de index (sección proyectos):
 - [ ] Index --> sección proyectos recientes:
    - [ ] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
-
+  
 #### Day Four
 ###### Jueves 26, Enero 2023
 
 - [ ] Trabajar con JavaScript en la página de contacto (formulario)
 - [ ] Contacto --> formulario:
-   - [ ] Incluir un formulario para que los visitantes del sitio web puedan enviar una solicitud de contacto
-   - [ ] Este formulario debe incluir campos para recolectar información como el nombre, el correo electrónico y el mensaje del usuario.
+   - [ ] Este formulario para enviar solicitud de contacto con  campos para recolectar información como el nombre, el correo electrónico y el mensaje del usuario.
    - [ ] Finalmente, este formulario deberá incluir un botón de envío para enviar la solicitud al punto final especificado en la URL. “https://jsonplaceholder.typicode.com/”.
    - [ ] Los resultados de este formulario se deben ver registrados en consola una vez enviados al punto final especificado en la URL con un codigo de estado 201.
 
@@ -226,8 +230,17 @@ En resumen, la sección "grande error" es una forma de ser transparente sobre lo
 
 
 ## Cómo trabajar en pareja en git
-1º Hacer pull en el main y en la rama de lo que haya en main. 
+<!-- 1º Hacer pull en el main y en la rama de lo que haya en main. 
 2º Trabajar hasta que te duelan las pestañas (en tu rama)
 3º Hacer pull (otra vez, sí) de lo que haya en main. 
 4º Hacer el push de la rama
-5º Hacer el merge de la rama con el main
+5º Hacer el merge de la rama con el main -->
+
+
+git status && git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin cris
+
+git status && git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin ester
+
+git status && git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin main
+
+git pull origin "nombre del branch/rama que estaremos apuntando"
