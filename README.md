@@ -126,18 +126,19 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [ ] Vincular la hoja de estilos en el head del documento HTML
 - [ ] Crear id y secciones necesarias / seuselectores
-- [ ] Cristina: seccion services, seccion CTA, y footer--> Aplicar CSS
-- [ ] Cristina: empezar CSS de formulario de ocntacto
+- [ ] Cristina: seccion services, seccion CTA, y footer, Aplicar CSS
+- [ ] Cristina: CSS de formulario de contacto
 - [ ] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
+- [ ] Ester: Páginas de projects
 - [ ] Decidir si vamos a trabajar con Flex o Grid--> Flex
 - [ ] Aplicar todos estilos según el diseño definido en Figma
 - [ ] Solución de problemas de Git, Git branches, Solución de conflictos por commits en main y en las brancehes de cris y ester.
 
 #### Day Three
 ###### Miercoles 25, Enero 2023
-
-- [ ] Ester: CSS de página de projects.
-- [ ] Cristina: Acabar CSS página de formulario de contacto.
+- [ ] Unificar trabajos por git, haciendo las requests cada uno, solucion de conflictos.
+- [ ] Terminar de aplicar estilos a las páginas, tipografias, hover
+- [ ] Adaptar diseño responsive desktop/mobile.
 - [ ] Trabajar con JavaScript en la página de index (sección proyectos):
 - [ ] Index --> sección proyectos recientes:
    - [ ] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
@@ -147,8 +148,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [ ] Trabajar con JavaScript en la página de contacto (formulario)
 - [ ] Contacto --> formulario:
-   - [ ] Incluir un formulario para que los visitantes del sitio web puedan enviar una solicitud de contacto
-   - [ ] Este formulario debe incluir campos para recolectar información como el nombre, el correo electrónico y el mensaje del usuario.
+   - [ ] Este formulario para enviar solicitud de contacto con  campos para recolectar información como el nombre, el correo electrónico y el mensaje del usuario.
    - [ ] Finalmente, este formulario deberá incluir un botón de envío para enviar la solicitud al punto final especificado en la URL. “https://jsonplaceholder.typicode.com/”.
    - [ ] Los resultados de este formulario se deben ver registrados en consola una vez enviados al punto final especificado en la URL con un codigo de estado 201.
 
