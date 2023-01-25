@@ -425,7 +425,7 @@ section:nth-of-type(4) .services{
   justify-content: left;
   align-items: left;
   width: 23%;
-  /* cambios */
+  /* cambios widht del padre:no tiene width, padre widtgh30% space bet*/
   background-color: white;
   box-shadow: 10px 10px 40px #B9B9B9;
   padding: 15px ;
@@ -436,8 +436,8 @@ section:nth-of-type(4) .services h3{
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width:90%; 
-  /* cambio cris */ */
+
+ 
 
 }
 section:nth-of-type(4) .services p{
