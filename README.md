@@ -111,9 +111,9 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day One
 ###### Lunes 23, Enero 2023
 
-- [ ] Set up del GitHub para poder trabajar de manera colaborativa (main, cris, ester branches)
-- [ ] Planificación del proyecto definiendo calendario y tareas
-- [ ] Realizar el esqueleto de la web:
+- [x] Set up del GitHub para poder trabajar de manera colaborativa (main, cris, ester branches)
+- [x] Planificación del proyecto definiendo calendario y tareas
+- [x] Realizar el esqueleto de la web:
 
     - [ ] HOME PAGE --> Navbar, hero section (main section), client section, project section, testimonial section, services section, CTA section y footer section.
 
@@ -124,20 +124,20 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Two
 ###### Martes 24, Enero 2023
 
-- [ ] Vincular la hoja de estilos en el head del documento HTML
-- [ ] Crear id y secciones necesarias / seuselectores
-- [ ] Cristina: seccion services, seccion CTA, y footer, Aplicar CSS
-- [ ] Cristina: CSS de formulario de contacto
-- [ ] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
-- [ ] Ester: Páginas de projects
-- [ ] Decidir si vamos a trabajar con Flex o Grid--> Flex
-- [ ] Aplicar todos estilos según el diseño definido en Figma
-- [ ] Solución de problemas de Git, Git branches, Solución de conflictos por commits en main y en las brancehes de cris y ester.
+- [x] Vincular la hoja de estilos en el head del documento HTML
+- [x] Crear id y secciones necesarias / seuselectores
+- [x] Cristina: seccion services, seccion CTA, y footer, Aplicar CSS
+- [x] Cristina: CSS de formulario de contacto
+- [x] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
+- [x] Ester: Páginas de projects
+- [x] Decidir si vamos a trabajar con Flex o Grid--> Flex
+- [x] Aplicar todos estilos según el diseño definido en Figma
+- [x] Solución de problemas de Git, Git branches, Solución de conflictos por commits en main y en las brancehes de cris y ester.
 
 #### Day Three
 ###### Miercoles 25, Enero 2023
-- [ ] Unificar trabajos por git, haciendo las requests cada uno, solucion de conflictos.
-- [ ] Terminar de aplicar estilos a las páginas, tipografias, hover
+- [ ] Unificar trabajos por git, haciendo las pull requests cada una, solucion de conflictos.
+- [ ] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular las tags en el nav bar de la homepage y en el de contact.
 - [ ] Adaptar diseño responsive desktop/mobile.
 - [ ] Trabajar con JavaScript en la página de index (sección proyectos):
 - [ ] Index --> sección proyectos recientes:
