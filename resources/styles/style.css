@@ -413,8 +413,9 @@ section:nth-of-type(4) div{
 }
 section:nth-of-type(4) .services img{
   margin-bottom: 1rem;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
 
 }
 
@@ -423,7 +424,8 @@ section:nth-of-type(4) .services{
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 20%;
+  width: 23%;
+  /* cambios */
   background-color: white;
   box-shadow: 10px 10px 40px #B9B9B9;
   padding: 15px ;
@@ -434,14 +436,16 @@ section:nth-of-type(4) .services h3{
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 30%;
+  width:90%; 
+  /* cambio cris */ */
+
 }
 section:nth-of-type(4) .services p{
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  width: 85%;
+  width: 95%;
   margin-bottom: 20px;
  
 
@@ -577,6 +581,7 @@ footer{
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  color: #072AC8;
   
 }
 
@@ -718,7 +723,13 @@ form button{
   background-color: #072AC8;
   color: white;
   padding: 20px ;
+  font-size: 20px;
 
+}
+
+form button:hover{
+  background-color: #292E47;
+  color: white;
 }
 form input{
   background-color: #E6E9F1;
@@ -729,6 +740,7 @@ form input{
 form textarea{
   background-color: #E6E9F1;
   padding: 10px;
+  font-family: ;
 }
 #contactform {
   padding:160px;
@@ -736,6 +748,8 @@ form textarea{
 
 #h1form{
   margin-bottom: 60px;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 
