@@ -126,32 +126,32 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [x] Vincular la hoja de estilos en el head del documento HTML
 - [x] Crear id y secciones necesarias / seuselectores
+- [x] Decidir si vamos a trabajar con Flex o Grid--> Flex
 - [x] Cristina: seccion services, seccion CTA, y footer, Aplicar CSS
 - [x] Cristina: CSS de formulario de contacto
 - [x] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
 - [x] Ester: Páginas de projects
-- [x] Decidir si vamos a trabajar con Flex o Grid--> Flex
+
 - [x] Aplicar todos estilos según el diseño definido en Figma
 - [x] Solución de problemas de Git, Git branches, Solución de conflictos por commits en main y en las brancehes de cris y ester.
 
 #### Day Three
 ###### Miercoles 25, Enero 2023
-- [x] Unificar trabajos por git, haciendo las pull requests cada una, solucion de conflictos.
-- [x] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular 'a' tags en el nav bar de la homepage y en el de contact.
-. [x] Solventar los conflictor por trabajo en branches, falta codigo html que no se actualizo en el pull al branch main.
+- [x] Unificar trabajos por git, haciendo las pull requests cada una, solucion de conflictos. Ha dado fallo
+- [x] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular 'a' tags en el nav bar de la homepage y en el de contacto.
+- [x] Solventar los conflictor por trabajo en branches, falta codigo html que no se actualizo en el pull al branch main. Hemos tenido  que rehacer trabajo de ayer por problemas con git. 
 - [ ] Adaptar diseño responsive desktop/mobile.
 - [ ] Trabajar con JavaScript en la página de index (sección proyectos):
-- [ ] Index --> sección proyectos recientes:
    - [ ] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
   
 #### Day Four
 ###### Jueves 26, Enero 2023
 
 - [ ] Trabajar con JavaScript en la página de contacto (formulario)
-- [ ] Contacto --> formulario:
-   - [ ] Este formulario para enviar solicitud de contacto con  campos para recolectar información como el nombre, el correo electrónico y el mensaje del usuario.
-   - [ ] Finalmente, este formulario deberá incluir un botón de envío para enviar la solicitud al punto final especificado en la URL. “https://jsonplaceholder.typicode.com/”.
+   - [ ] Este formulario deberá incluir un botón de envío para enviar la solicitud al punto final especificado en la URL. “https://jsonplaceholder.typicode.com/”.
    - [ ] Los resultados de este formulario se deben ver registrados en consola una vez enviados al punto final especificado en la URL con un codigo de estado 201.
+- [ ] Trabajar con JavaScript en la página de index (sección proyectos):
+  - [ ] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
 
 #### Day Five
 ###### Viernes 27, Enero 2023
