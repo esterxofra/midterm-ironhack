@@ -437,8 +437,14 @@ section:nth-of-type(4) div{
 section:nth-of-type(4) .services img{
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  
+  
 
+}
+section:nth-of-type(4) .services div{
+  border-radius: 50%;
+  background-color: #A2D6F9;
+  padding: 20%;
 }
 
 section:nth-of-type(4) .services{
@@ -449,7 +455,7 @@ section:nth-of-type(4) .services{
   width: 30%;
   background-color: white;
   box-shadow: 10px 10px 40px #B9B9B9;
-  padding: 15px ;
+  padding: 15px;
   
 }
 section:nth-of-type(4) .services h3{
