@@ -899,8 +899,8 @@ form textarea{
   }
   .nav-menu{
     position: fixed;
-    left: -100%;
-    top: 70px;
+    /* left: -100%;
+    top: 70px; */
     gap: 0;
     flex-direction: column;
     background-color: #6b708d;
