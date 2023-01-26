@@ -97,7 +97,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
- 
+
 #### Backlog
 
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
@@ -109,19 +109,21 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Ej - Crear section "projects" en html -->
 
 #### Day One
+
 ###### Lunes 23, Enero 2023
 
 - [x] Set up del GitHub para poder trabajar de manera colaborativa (main, cris, ester branches)
 - [x] Planificación del proyecto definiendo calendario y tareas
 - [x] Realizar el esqueleto de la web:
 
-    - [ ] HOME PAGE --> Navbar, hero section (main section), client section, project section, testimonial section, services section, CTA section y footer section.
+  - [ ] HOME PAGE --> Navbar, hero section (main section), client section, project section, testimonial section, services section, CTA section y footer section.
 
-    - [ ] PROJECT PAGE --> Navbar, project section, projects section, CTA section y footer section.
+  - [ ] PROJECT PAGE --> Navbar, project section, projects section, CTA section y footer section.
 
-    - [ ] CONTACT US PAGE --> Navbar, contact us section y footer section.
-    
+  - [ ] CONTACT US PAGE --> Navbar, contact us section y footer section.
+
 #### Day Two
+
 ###### Martes 24, Enero 2023
 
 - [x] Vincular la hoja de estilos en el head del documento HTML
@@ -136,24 +138,29 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Solución de problemas de Git, Git branches, Solución de conflictos por commits en main y en las brancehes de cris y ester.
 
 #### Day Three
+
 ###### Miercoles 25, Enero 2023
+
 - [x] Unificar trabajos por git, haciendo las pull requests cada una, solucion de conflictos. Ha dado fallo
 - [x] Terminar de aplicar estilos a las páginas, tipografias, hover y vincular 'a' tags en el nav bar de la homepage y en el de contacto.
-- [x] Solventar los conflictor por trabajo en branches, falta codigo html que no se actualizo en el pull al branch main. Hemos tenido  que rehacer trabajo de ayer por problemas con git. 
+- [x] Solventar los conflictor por trabajo en branches, falta codigo html que no se actualizo en el pull al branch main. Hemos tenido que rehacer trabajo de ayer por problemas con git.
 - [ ] Adaptar diseño responsive desktop/mobile.
-- [ ] Trabajar con JavaScript en la página de index (sección proyectos):
-   - [ ] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
-  
-#### Day Four
-###### Jueves 26, Enero 2023
-- [ ] Adaptar diseño responsive desktop/mobile.
-- [ ] Trabajar con JavaScript en la página de contacto (formulario)
-   - [ ] Este formulario deberá incluir un botón de envío para enviar la solicitud al punto final especificado en la URL. “https://jsonplaceholder.typicode.com/”.
-   - [ ] Los resultados de este formulario se deben ver registrados en consola una vez enviados al punto final especificado en la URL con un codigo de estado 201.
 - [ ] Trabajar con JavaScript en la página de index (sección proyectos):
   - [ ] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
 
+#### Day Four
+
+###### Jueves 26, Enero 2023
+
+- [x] Adaptar diseño responsive desktop/mobile.
+- [x] Trabajar con JavaScript en la página de contacto (formulario)
+  - [x] Este formulario deberá incluir un botón de envío para enviar la solicitud al punto final especificado en la URL. “https://jsonplaceholder.typicode.com/”.
+  - [x] Los resultados de este formulario se deben ver registrados en consola una vez enviados al punto final especificado en la URL con un codigo de estado 201.
+- [x] Trabajar con JavaScript en la página de index (sección proyectos):
+  - [x] Obtención de datos de un documento externo JSON y mostrar dicha información de manera clara y ordenada en la sección correspondiente
+
 #### Day Five
+
 ###### Viernes 27, Enero 2023
 
 - [ ] Preparar la presentación del proyecto (Canvas - de 5 a 8 slides)
@@ -168,10 +175,10 @@ La sección "sobre mí" en un archivo README es una sección que proporciona inf
 
 En esta sección se puede incluir información como:
 
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
-- Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
+- Nombre y datos de contacto del desarrollador o equipo: Cristina Jalle y Ester Xofra
+- Información sobre experiencia laboral o académica relacionada con el proyecto: Diseñadoras UX
+<!-- - Enlaces a perfiles en redes sociales o sitios web personales:
+- Otra información relevante que el desarrollador o equipo desee compartir. -->
 
 En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
 
@@ -191,7 +198,7 @@ La sección "agradecimientos" en un archivo README es una sección que proporcio
 
 En esta sección se puede incluir información como:
 
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
+- Agradecimientos a los profesores Aleix, Diego y Jarko por su infinita paciencia,
 - Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
 - Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
 
@@ -228,15 +235,13 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
 
-
-
 ## Cómo trabajar en pareja en git
-<!-- 1º Hacer pull en el main y en la rama de lo que haya en main. 
+
+<!-- 1º Hacer pull en el main y en la rama de lo que haya en main.
 2º Trabajar hasta que te duelan las pestañas (en tu rama)
-3º Hacer pull (otra vez, sí) de lo que haya en main. 
+3º Hacer pull (otra vez, sí) de lo que haya en main.
 4º Hacer el push de la rama
 5º Hacer el merge de la rama con el main -->
-
 
 git status && git add . && git commit -m "Texto descriptivo de los cambios recientes" && git push origin cris
 
