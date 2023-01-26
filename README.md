@@ -146,7 +146,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
   
 #### Day Four
 ###### Jueves 26, Enero 2023
-
+- [ ] Adaptar diseño responsive desktop/mobile.
 - [ ] Trabajar con JavaScript en la página de contacto (formulario)
    - [ ] Este formulario deberá incluir un botón de envío para enviar la solicitud al punto final especificado en la URL. “https://jsonplaceholder.typicode.com/”.
    - [ ] Los resultados de este formulario se deben ver registrados en consola una vez enviados al punto final especificado en la URL con un codigo de estado 201.
