@@ -903,27 +903,27 @@ header{
 }
 
 .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
 }
 
 .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .nav-menu{
   z-index: 2;
   position: fixed;
   left: -100%;
-  top: 120px;
+  top: 50px;
   gap: 0;
   flex-direction: column;
-  background-color: #6b708d;
+  background-color: #c8cad5;
   width: 100%;
-  text-align: center;
+  text-align: left;
   transition: 0.3s;
 }
 
