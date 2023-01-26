@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 body {
@@ -870,6 +870,8 @@ form textarea{
 
 @media (max-width: 766px) {
 
+/* INDEX PAGE */
+
   body {
     width: 100%;
     margin: auto;
@@ -934,7 +936,6 @@ header{
 }
 
 /* MAIN SECTION */
-
 
 main {
   display: flex;
@@ -1289,7 +1290,88 @@ section:nth-of-type(4) .services{
 
 /* FOOTER */
 
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 242px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 5vw 1vw 5vw;
+  margin-bottom: 5%;
+  
+}
 
+#footericon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footericon p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  flex-wrap: wrap;
+  width: 30vw;
+  text-align: center;
+  margin-bottom: 5%;
+  
+  
+}
+#footericon img{
+  width: 150px;
+  height: auto;
+  margin-bottom: 25px;
+  align-content: center;
+}
+
+#footerlist{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  
+}
+
+.list1 ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-bottom: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color:#072ac8;
+  
+}
+.list2 ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color:#072ac8;
+}
+
+/* PROJECTS PAGE */
+
+/* OTHER PROJECTS SECTION */
+  
+#other-projects-section{
+  margin-bottom: 5vh;
+}
+
+#other-projects-section h2 {
+  font-size: 30px;
+  padding: 5px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
 
 }
 
