@@ -105,6 +105,19 @@ button:hover{
   font-size: 17px;
   text-decoration: none;
 }
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
 
 /* ------------------------------ MAIN SECTION------------------------------ */
@@ -858,14 +871,51 @@ form textarea{
 /* --------------------------------------------------------------------------- */
 
 /* ------------------------- Smaller than 990px (tablet) ------------------------- */
-@media (max-width: 990px) {
-  /* Your CSS code goes here */
-}
+/* @media (max-width: 990px) {} */
+
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
+
 @media (max-width: 766px) {
-  /* Your CSS code goes here */
+  .bar{
+    background-color: blue;
+  }
+
+ .hacemos-y-ya-vemos, .style-button-contact{
+  display: none;
 }
+
+  .hamburger{
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu{
+    position: fixed;
+    /* left: -100%;
+    top: 70px; */
+    gap: 0;
+    flex-direction: column;
+    background-color: #6b708d;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item{
+    margin: 16px 0px;
+  }
+  .nav-menu.active{
+    left: 0;
+  }
+}
+
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
