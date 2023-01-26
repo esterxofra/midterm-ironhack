@@ -1360,11 +1360,41 @@ footer{
 
 /* PROJECTS PAGE */
 
-/* OTHER PROJECTS SECTION */
-  
-#other-projects-section{
-  margin-bottom: 5vh;
+/* MAIN SECTION */
+
+
+h2 {
+  font-size: 40px;
 }
+
+#main-project-section{
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 5vw 1vw 5vw;
+}
+
+.subtitle-left{
+  font-size: 20px;
+  flex-direction: column;
+}
+
+.subtitle-right{
+  font-size: 20px;
+}
+
+#main-project-section img{
+  height: 500px;
+  box-shadow: 10px 10px 40px #B9B9B9;
+  margin-bottom: 50px;
+}
+
+#main-project-section p{
+   font-size: 20px;
+ 
+}
+
+
+/* OTHER PROJECTS SECTION */
 
 #other-projects-section h2 {
   font-size: 30px;
@@ -1372,6 +1402,80 @@ footer{
   margin: 0px 0px 0px 0px;
   text-align: center;
 }
+
+/* CONTACT US PAGE */
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+form .form2{
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+
+form .form2 div{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 15px;
+  font-size: 20px;
+  margin-bottom: 1.5%;
+}
+
+form button{
+  background-color: #072AC8;
+  color: white;
+  padding: 40px ;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+form button:hover{
+  color: white;
+  background-color: #292E47;
+  transition: background-color .5s;
+}
+
+form input{
+  background-color: #E6E9F1;
+  padding: 1.5%;
+  font-size: 14px;
+  margin-bottom: 1.5%;
+  border: none;
+}
+
+form textarea{
+  background-color: #E6E9F1;
+  padding: 20px;
+  font-size: 14px;
+  font-family: "Roboto";
+  margin-bottom: 1.5%;
+  border: none;
+}
+
+#contactform {
+  padding: 1vw 5vw 1vw 5vw;
+}
+
+#h1form{
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+
 
 }
 
