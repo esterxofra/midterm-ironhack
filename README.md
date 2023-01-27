@@ -69,8 +69,8 @@ La sección "sobre el proyecto" en un archivo README es una sección importante 
 En esta sección se puede incluir información como:
 
 - Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
+- Tecnologías utilizadas: HTML, CSS, GIT
+- Funcionalidades principales: Dar estilo y dinamismo a una landing page.
 - Instrucciones de instalación y configuración
 - Enlaces a documentación adicional o recursos relacionados con el proyecto
 - Licencia del proyecto
@@ -86,9 +86,9 @@ La sección "construido con" en un archivo README es una sección que proporcion
 
 En esta sección se puede incluir información como:
 
-- Lenguajes de programación utilizados
+- Lenguajes de programación utilizados: JavaScript
 - Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
+- Herramientas de desarrollo (IDE, control de versiones, etc): GIT, GITHUB, Visual Studio Code
 - Servicios en la nube utilizados (si corresponde)
 - Otros recursos o tecnologías relacionadas con el proyecto.
 
@@ -133,7 +133,6 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Cristina: CSS de formulario de contacto
 - [x] Ester: Seccion navbar, seccion main , seccion clientes, seccion testimonial--> Aplicar CSS
 - [x] Ester: Páginas de projects
-
 - [x] Aplicar todos estilos según el diseño definido en Figma
 - [x] Solución de problemas de Git, Git branches, Solución de conflictos por commits en main y en las brancehes de cris y ester.
 
@@ -177,8 +176,8 @@ En esta sección se puede incluir información como:
 
 - Nombre y datos de contacto del desarrollador o equipo: Cristina Jalle y Ester Xofra
 - Información sobre experiencia laboral o académica relacionada con el proyecto: Diseñadoras UX
-<!-- - Enlaces a perfiles en redes sociales o sitios web personales:
-- Otra información relevante que el desarrollador o equipo desee compartir. -->
+- Enlaces a perfiles en redes sociales o sitios web personales:
+- Otra información relevante que el desarrollador o equipo desee compartir.
 
 En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
 
@@ -198,9 +197,9 @@ La sección "agradecimientos" en un archivo README es una sección que proporcio
 
 En esta sección se puede incluir información como:
 
-- Agradecimientos a los profesores Aleix, Diego y Jarko por su infinita paciencia,
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
+- Agradecimientos a los profesores Aleix, Diego y Jarko por su infinita paciencia y su buen humor.
+- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos: StackOverflow, YouToBe, W3 school, MDN
+- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto: https://circle-agency-35d27e.webflow.io/
 
 En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
 
@@ -215,10 +214,10 @@ La sección "desafío técnico" aunque no es convencional en un proyecto profesi
 
 En esta sección se puede incluir información como:
 
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
+- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto: JavaScript (aprender y consolidar las bases del lenguaje JavaScript), manipulación del DOM y fetch API. Por otro lado, aprender a utilizar GIT: aprender cómo trabajar en diferentes branches y cómo solucionar conflictos.
+- Soluciones implementadas para superar estos desafíos: trabajar en diferentes documentos para no sobreescribir el código de los demás. Y hacer siempre copias de seguridad para no perder el trabajo.
+- Aspectos del proyecto que aún son un desafío o que requieren mejora continua: implementar más funcionalidades de JavaScript para aportar un mayor dinamismo a la página web. Y mejorar el cómo trabajar de manera colaborativa con git.
+- Recomendaciones para futuros desarrolladores que trabajen en el proyecto:
 
 En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
 
