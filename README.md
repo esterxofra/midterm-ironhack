@@ -217,7 +217,7 @@ En esta sección se puede incluir información como:
 - Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto: JavaScript (aprender y consolidar las bases del lenguaje JavaScript), manipulación del DOM y fetch API. Por otro lado, aprender a utilizar GIT: aprender cómo trabajar en diferentes branches y cómo solucionar conflictos.
 - Soluciones implementadas para superar estos desafíos: trabajar en diferentes documentos para no sobreescribir el código de los demás. Y hacer siempre copias de seguridad para no perder el trabajo.
 - Aspectos del proyecto que aún son un desafío o que requieren mejora continua: implementar más funcionalidades de JavaScript para aportar un mayor dinamismo a la página web. Y mejorar el cómo trabajar de manera colaborativa con git.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto:
+- Recomendaciones para futuros desarrolladores que trabajen en el proyecto: tener una buena comunicación con el resto de integrantes del equipo para establecer de qué manera se va a trabajar tanto con git como cómo trabajar en la hoja de estilos para que haya una mayor coherencia en el código.
 
 En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
 
@@ -227,10 +227,10 @@ La sección "grande error" en un archivo README es una sección opcional que pro
 
 En esta sección se puede incluir información como:
 
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
+- Descripción detallada del error cometido: trabajar desde diferentes brances en el mismo archivo.
+- Consecuencias del error: rehacer varias veces el mismo trabajo al perder información durante la pull request.
+- Soluciones implementadas para corregir el error: trabajar en diferentes archivos.
+- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro: aprender a gestionar git antes de empezar a trabajar de forma colaborativa.
 
 En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
 

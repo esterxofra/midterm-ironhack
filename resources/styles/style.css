@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px red solid; */
+  border: 1px red solid;
 }
 
 body {
@@ -119,6 +119,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  height: 700px;
   margin-bottom: 5vh;
 }
 
@@ -207,7 +208,7 @@ main {
 #hero-main-section-images{
 background-image: url("/resources/images/hero-section/hero-image.png");
 background-repeat: no-repeat;
-background-position: top center;
+background-position: center center;
 background-size: 30vw;
 position: relative;
 width: 100vw;
@@ -234,7 +235,7 @@ width: 100vw;
 #clients-section{
   display: flex;
   justify-content: space-around;
-  margin-bottom: 25vh;
+  margin-bottom: 5vh;
  }
  
  #clients-section img{
@@ -284,6 +285,7 @@ width: 100vw;
   justify-content: center;
   width: 100%;
   margin-bottom: 2vh;
+  height: 300px;
 }
 
 .internal-div-project h3{
@@ -940,6 +942,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  height: 50vh;
   margin-bottom: 5vh;
 }
 
@@ -1031,7 +1034,7 @@ main {
 #hero-main-section-images{
   background-position: center center;
   background-size: 78vw;
-  width: auto;
+  width: 100vw;
   height: 100vh;
   padding: 100px;
   }
@@ -1236,7 +1239,6 @@ section:nth-of-type(4) .services{
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
   margin-bottom: 5vh;
 
 }
