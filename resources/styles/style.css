@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 body {
@@ -253,7 +253,7 @@ height: 700px;
 
 #recent-project-section h2 {
   font-family: 'Roboto';
-  /* font-style:normal; */
+
   font-weight: bold;
   font-size: 40px;
   line-height: 47px;
@@ -956,7 +956,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  height: 100vh;
+  height: 70vh;
   margin-bottom: 5vh;
 }
 
@@ -1049,7 +1049,7 @@ main {
   background-position: center center;
   background-size: 78vw;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 100px;
   }
 
@@ -1101,6 +1101,7 @@ main {
   flex-wrap: nowrap;
   max-width: 80%;
   margin: 5vh 5vh 5vh 5vh;
+ 
 }
 
 .internal-div-project {
@@ -1116,7 +1117,7 @@ main {
 .internal-div-project img{
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: auto;
   margin-bottom: 2vh;
 }
 
