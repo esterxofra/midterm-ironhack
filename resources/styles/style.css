@@ -212,6 +212,7 @@ background-position: center center;
 background-size: 30vw;
 position: relative;
 width: 100vw;
+height: 700px;
 }
 
 .img2{
@@ -955,7 +956,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  height: 50vh;
+  height: 100vh;
   margin-bottom: 5vh;
 }
 
